@@ -73,6 +73,7 @@
   analyzer-version = 1
   input-imports = [
     "github.com/dgrijalva/jwt-go",
+    "github.com/gorilla/context",
     "github.com/gorilla/mux",
     "github.com/mitchellh/mapstructure",
     "github.com/sirupsen/logrus",
