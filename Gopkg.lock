@@ -2,6 +2,14 @@
 
 
 [[projects]]
+  digest = "1:76dc72490af7174349349838f2fe118996381b31ea83243812a97e5a0fd5ed55"
+  name = "github.com/dgrijalva/jwt-go"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "06ea1031745cb8b3dab3f6a236daf2b0aa468b7e"
+  version = "v3.2.0"
+
+[[projects]]
   digest = "1:c79fb010be38a59d657c48c6ba1d003a8aa651fa56b579d959d74573b7dff8e1"
   name = "github.com/gorilla/context"
   packages = ["."]
@@ -24,6 +32,14 @@
   pruneopts = "UT"
   revision = "5c8c8bd35d3832f5d134ae1e1e375b69a4d25242"
   version = "v1.0.1"
+
+[[projects]]
+  digest = "1:53bc4cd4914cd7cd52139990d5170d6dc99067ae31c56530621b18b35fc30318"
+  name = "github.com/mitchellh/mapstructure"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "3536a929edddb9a5b34bd6861dc4a9647cb459fe"
+  version = "v1.1.2"
 
 [[projects]]
   digest = "1:69b1cc331fca23d702bd72f860c6a647afd0aa9fcbc1d0659b1365e26546dd70"
@@ -56,7 +72,9 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/dgrijalva/jwt-go",
     "github.com/gorilla/mux",
+    "github.com/mitchellh/mapstructure",
     "github.com/sirupsen/logrus",
   ]
   solver-name = "gps-cdcl"
